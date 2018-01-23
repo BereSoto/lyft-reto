@@ -1,0 +1,96 @@
+.bg-color {
+  background: linear-gradient(140deg, #560061, #E50A8A); /*to bottom right*/
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure {
+  height: 25vh;
+  width: 35vh;
+}
+
+.text-end {
+  color: white;
+  font-size: 16px;
+}
+
+.icon-check {
+  color: white;
+  position: relative;
+  left: 80px;
+}
+
+.bg-gif {
+  background-image: url('../assets/images/fondo_responsivo2a.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns-start {
+  bottom: 2rem;
+  position: absolute;
+}
+
+.btn-color {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.btn-color:hover {
+  background-color: #E90C8C;
+  color: white;
+}
+
+.btn-next {
+  width: 100%;
+  background-color: #E90C8C;
+}
+
+.btn-next:hover {
+  background: linear-gradient(to right, #560061, #E50A8A);
+  color: white;
+}
+
+.col-margin {
+  margin-top: 2rem;
+}
+
+#resendCode {
+  background-color: #BEBEBE;
+  color: black;
+}
+
+#resendCode:hover {
+  background: linear-gradient(to right, #560061, #E50A8A);
+  color: white;
+}
+
+.bg-end {
+  background: linear-gradient(140deg, #560061, #E50A8A); /*to bottom right*/
+  height: 100vh;
+}
+
+.content-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .bg-gif {
+    background-image:url(../assets/images/fondo_estatico.gif);
+  }
+
+  .logo2 {
+    background-image: url(../assets/images/logo-rojo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
